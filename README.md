@@ -147,20 +147,7 @@ AI-powered study tool generating flashcards, practice quizzes and study material
 ### 📊 GitHub Stats
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=aakash-code&show_icons=true&theme=default&hide_border=true&count_private=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aakash-code&layout=compact&hide_border=true&theme=default" width="30%" />
-</div>
-
-<div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=aakash-code&hide_border=true&theme=default" width="60%" />
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aakash-code&theme=minimal&hide_border=true" width="90%" />
-</div>
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=aakash-code&theme=flat&no-frame=true&row=1&column=6" width="90%" />
 </div>
 
 ---
