@@ -110,7 +110,7 @@ A static, ad-funded public side (calculators, pricing, quote templates) plus a p
 <td width="50%" valign="top">
 
 **Komo by Kaffa** — hospitality marketing site
-Next.js · Tailwind CSS
+[komo-self.vercel.app](https://komo-self.vercel.app) — Next.js · Tailwind CSS
 Brand-driven marketing site for a large café, with every visual decision traced back to the client's own brand material, plus a CMS sub-component.
 
 </td>
@@ -135,6 +135,22 @@ Marketing/company site with a database-backed content layer.
 **CFA Prep Tool**
 Python · local (non-API) AI models
 AI-powered study tool generating flashcards, practice quizzes and study material for CFA Levels 1–3, running fully on local models — no paid subscription behind it.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Freshmor** — manufacturer product site
+[freshmor.vercel.app](https://freshmor.vercel.app) — Next.js
+Product/marketing site for a hygiene & tissue products manufacturer — B2B and white-label/OEM offering alongside the consumer catalog.
+
+</td>
+<td width="50%" valign="top">
+
+**ReferralPath** — clinical workflow SaaS
+[referralpath.vercel.app](https://referralpath.vercel.app) — Next.js
+Converts physiotherapy session notes into professional referral letters in minutes, with mandatory clinician review before anything is sent.
 
 </td>
 </tr>
