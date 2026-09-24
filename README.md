@@ -5,7 +5,9 @@
 ### Full-stack engineer shipping production systems with AI coding agents as the daily workflow
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-aakash--code.github.io-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aakash-code.github.io/)
-[![Email](https://img.shields.io/badge/Email-sheladiyaaakash%40zohomail.in-6366f1?style=for-the-badge&logo=zohomail&logoColor=white)](mailto:sheladiyaaakash@zohomail.in)
+[![Email](https://img.shields.io/badge/Email-sheladiyaaakash%40zohomail.in-6366f1?style=for-the-badge&logo=zoho&logoColor=white)](mailto:sheladiyaaakash@zohomail.in)
+
+<img src="https://komarev.com/ghpvc/?username=aakash-code&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS" alt="profile views"/>
 
 </div>
 
@@ -20,22 +22,55 @@
 
 ---
 
-### 🚀 Things I've built
+### 🛠️ Tech Stack
+
+**Languages**
+<img src="https://skillicons.dev/icons?i=ts,js,py" />
+
+**Frontend**
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,threejs" />
+
+**Backend**
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,django" />
+
+**Data**
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,prisma,redis,supabase" />
+
+**Infra & tooling**
+<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vercel,cloudflare,nginx,grafana,prometheus" />
+
+**Testing & QA**
+<img src="https://skillicons.dev/icons?i=playwright,pytest,jest" />
+
+**AI & Integrations**
+
+![Claude API](https://img.shields.io/badge/Claude_API-1.5%2B_yrs_production-D97757?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-builds_%26_consumes_servers-6366f1?style=flat-square)
+![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph_API-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint_REST-0078D4?style=flat-square&logo=microsoftsharepoint&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
+![Server-Sent Events](https://img.shields.io/badge/SSE-realtime_dashboards-16a34a?style=flat-square)
+![BullMQ](https://img.shields.io/badge/Redis_%2B_BullMQ-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+---
+
+### 🚀 Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 **Volunteer & Contact Operations Platform**
-Node.js/Express · React · MySQL (raw SQL) · SSE
-Live in production at 200K+ contacts. Root-caused and fixed a multi-part iOS Safari production incident (stale service-worker caching, bfcache, chunk-load failures), then built boot-level telemetry to catch the next one before it's a support ticket.
+Node.js/Express · React · MySQL (raw SQL) · SSE · Playwright
+Live in production at 200K+ contacts. Event microsites, intake forms, QR-kiosk check-in, live SSE dashboards. Root-caused and fixed a multi-part iOS Safari production incident (stale service-worker caching, bfcache, chunk-load failures), then built boot-level telemetry to catch the next one.
 
 </td>
 <td width="50%" valign="top">
 
 **Eco-Tableware E-Commerce Platform**
-[kailorusa.com](https://kailorusa.com) — Node/Express/Sequelize · React/TypeScript
-Full storefront + admin, live dual Stripe/Razorpay payment integration with signature-verified, idempotent webhooks.
+[kailorusa.com](https://kailorusa.com) — Node/Express/Sequelize · React/TypeScript/Vite
+Full white-label-ready storefront + admin, live dual Stripe/Razorpay payment integration with signature-verified, idempotent webhooks.
 
 </td>
 </tr>
@@ -43,37 +78,69 @@ Full storefront + admin, live dual Stripe/Razorpay payment integration with sign
 <td width="50%" valign="top">
 
 **B2B Lead Generation SaaS**
-Next.js · TypeScript · PostgreSQL/Prisma · Redis + BullMQ
-Scheduled ingestion, a weighted lead-scoring engine, and a Kanban pipeline to closure. 58/58 commits.
+Next.js (App Router) · TypeScript · PostgreSQL/Prisma · Redis + BullMQ · NextAuth
+Scheduled ingestion via background worker, a 0–100 lead-scoring engine over six weighted signals, and a Kanban pipeline to closure.
 
 </td>
 <td width="50%" valign="top">
 
 **OpenAlgo Chart** — #2 contributor
-React · TypeScript · lightweight-charts · MCP
-Real-time charting platform for algorithmic trading; wired a self-built MCP server into the dev toolchain.
+React 19 · TypeScript · lightweight-charts · Playwright · MCP
+Data-dense, real-time charting platform for algorithmic trading. Wired a self-built MCP server into the dev toolchain via `.mcp.json`.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**JustJoin.it B2B Lead-Capture & Verification Tool**
+Python · FastAPI · SQLAlchemy · pytest
+Pulls B2B/freelance offers from an external job-board API and verifies each company against three official EU/Polish business registries (KRS, White List VAT, VIES) before outreach.
+
+</td>
+<td width="50%" valign="top">
+
+**TradeQuote** — quoting tool for solo tradespeople
+Next.js · Node built-in test runner · Cloudflare Workers
+A static, ad-funded public side (calculators, pricing, quote templates) plus a private browser-only workspace for building quotes — deliberately built to cost nothing to run while being validated.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Komo by Kaffa** — hospitality marketing site
+Next.js · Tailwind CSS
+Brand-driven marketing site for a large café, with every visual decision traced back to the client's own brand material, plus a CMS sub-component.
+
+</td>
+<td width="50%" valign="top">
+
+**Housy** — 3D/spatial visualization
+Next.js 16 · React 19 · three.js · Gaussian Splatting · Supabase
+Photorealistic 3D scene rendering (Gaussian Splatting) with a Supabase backend/auth layer.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Lighthour.in** — digital engineering company site
+Next.js · Prisma · MariaDB · Radix UI
+Marketing/company site with a database-backed content layer.
+
+</td>
+<td width="50%" valign="top">
+
+**CFA Prep Tool**
+Python · local (non-API) AI models
+AI-powered study tool generating flashcards, practice quizzes and study material for CFA Levels 1–3, running fully on local models — no paid subscription behind it.
 
 </td>
 </tr>
 </table>
 
----
-
-### 🛠️ Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white)
+**Open source:** merged contributions to **OpenAlgo** (algorithmic trading platform, ~5,000 commits, ~100 contributors) on expired F&O historical data.
 
 ---
 
@@ -86,6 +153,14 @@ Real-time charting platform for algorithmic trading; wired a self-built MCP serv
 
 <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=aakash-code&hide_border=true&theme=default" width="60%" />
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aakash-code&theme=minimal&hide_border=true" width="90%" />
+</div>
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=aakash-code&theme=flat&no-frame=true&row=1&column=6" width="90%" />
 </div>
 
 ---
