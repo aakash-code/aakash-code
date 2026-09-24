@@ -15,7 +15,7 @@
 
 ### About me
 
-- Full-stack engineer, **4+ years freelance**, based in Ahmedabad, India — remote, Sydney business-hours overlap
+- Full-stack engineer, **4+ years freelance**, based in Ahmedabad, India — remote, worldwide, flexible hours around client timezone
 - **1.5+ years production experience with the Claude API** — model tiering across Haiku/Sonnet/Opus, prompt caching, and an agent-driven development workflow (Claude Code) rather than ad hoc prompting
 - I own engagements end to end: first conversation → architecture → build → deploy → the incident response that follows once real users show up
 - Currently shipping and maintaining a production system at **200K+ records**, and building/consuming **MCP servers**
@@ -154,7 +154,7 @@ AI-powered study tool generating flashcards, practice quizzes and study material
 
 <div align="center">
 
-**Open to full-stack + AI-native engineering roles — remote, Sydney overlap available**
+**Open to full-stack + AI-native engineering roles — remote, worldwide, flexible hours**
 [Portfolio](https://aakash-code.github.io/) · [Email](mailto:sheladiyaaakash@zohomail.in)
 
 </div>
